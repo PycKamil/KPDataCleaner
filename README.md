@@ -8,17 +8,11 @@ KPDataCleader provide easy way of doing it. Just attach it to view add by double
 * **Remove all application data** - cleans standardUserDefaults and documents folder files.
 * **Quit application** - easy way to exit application and then starting it again from multitasking applications list.
 
-~~~~
-
-### **Usage**
-
-
-
+## **Usage**
 
 Simple - just attach it to window or any other view
 
 ```
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
@@ -31,9 +25,17 @@ Simple - just attach it to window or any other view
 }
 ```
 
-
+##Screenshot
 
 
 ![image](http://24.media.tumblr.com/50763272671105c666522937941df5c9/tumblr_mqxg2ocp0t1s5jboho1_500.png)
-you can get in touch with me on Twitter @KamilPyc
+
+## Contact
+
+- http://github.com/PycKamil
+- http://twitter.com/KamilPyc
+
+## License
+
+KPDataCleaner is available under the MIT license. See the LICENSE file for more info.
  
